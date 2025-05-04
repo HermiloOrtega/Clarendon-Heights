@@ -1,65 +1,82 @@
-# 📦 Clarendon Heights
+# **Clarendon Heights**  
 
-## 🧭 Overview
-- Short Summary of the app and what problem it solves. 
-- Include a screnshot of GIF here is possible.
-![Screenshot](./assets/screenshot.png) <!-- Replace with your image path -->
+## 🧭 Overview  
+**Clarendon Heights** is a clean, elegant real estate website originally developed using **WordPress + Elementor** and later migrated to **Webflow** as a single-page site hosted as a **subdomain of Evermark Real Estate**. This website highlights a modern residential development, showcasing available units, features, floorplans, and contact details in a streamlined and accessible format.
 
-## 💡 Idea & Concept
-- What inspired this? 
-- Who is it for? 
+---
 
-## ✨ Features & Functionality
-- Bullet list of main features 
+## 💡 Idea & Concept  
+The concept was to provide an immersive and **easy-to-navigate one-page experience** for prospective homebuyers interested in Clarendon Heights. The migration to Webflow allowed better performance, design control, and alignment with Evermark’s broader digital presence.
 
-## ⚙️ Tech Stack
-- Language(s), framework, libraries, services, tools, deployment platform. 
+---
 
-## 🏗 Architecture & Design
-- Describe how its structured (e.g., MVC, Monolith, Microservices)
-- Include diagrams if applicable 
+## ✨ Features & Functionality  
+- One-page responsive design optimized for desktop and mobile  
+- Highlight of key features, amenities, and project specs  
+- Floorplan viewer with **PDF download** capability  
+- Contact form with CRM integration  
+- Integration into Evermark’s subdomain for traffic redirection  
+- Clean white-and-blue design for modern clarity  
 
-## 🚀 Installation & Setup
-- **Prerequisites:** 
+---
 
-- **Installation Steps:** 
+## ⚙️ Tech Stack  
+![Webflow](https://img.shields.io/badge/Webflow-4353FF?style=for-the-badge&logo=webflow&logoColor=white)  
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)  
+![Elementor](https://img.shields.io/badge/Elementor-92003B?style=for-the-badge&logo=elementor&logoColor=white)
 
-- **Deployment Environment:** 
+---
 
-- **Access:** 
+## 🏗 Architecture & Design  
+- **Initial Build:** WordPress + Elementor (multi-page layout)  
+- **Final Structure:** Webflow single-page website with scroll-based section navigation  
+- **Hosting:** Evermark Real Estate subdomain  
+- **Redirection:** Old site URLs redirected to new Webflow structure  
 
-> **Note:** 
+---
 
-## 🧑‍💻 Usage
-- How to use the software after setup 
-- CLI Commands, UI Walkthrough, or API Endpoints. 
+## 🚀 Installation & Setup  
+- Set up in Webflow with a custom domain configuration  
+- Connected to Evermark Real Estate DNS & hosting infrastructure  
+- Embedded secure contact forms for lead collection  
+- Used CMS functionality in Webflow for updating plans and images  
 
-## 🔍 My Role & Contributions
-- 💼 Full-stack development
-- 🧱 Architecture design
-- 🐞 Bug fixing and optimization
-- 🤝 Collaboration with design/product teams
+---
 
-## 🧗 Challenges & Learnings
-- Major issues you faced and how you overcome them.
-- What you learned from the process.
+## 🧑‍💻 My Role & Contributions  
+- 🧱 Migrated site from WordPress to Webflow  
+- 🎨 Refactored UX/UI for one-page design flow  
+- 🛠️ Optimized performance and SEO  
+- 🧩 Integrated floorplan viewer and PDF download links  
+- 🔗 Managed subdomain routing and traffic redirection  
 
-## 📈 Future Enhancements
-- Features you plan to build. 
-- Known bugs or technical debt. 
+---
 
-## 🤝 Contributing
-- How other can contribute (if open source)
+## 🧗 Challenges & Learnings  
+- Ensuring a smooth migration from a dynamic multi-page WordPress site to a static one-page Webflow site  
+- Creating an intuitive scroll-based navigation that felt immersive and engaging  
+- Coordinating with marketing and sales teams for design revisions and performance tracking  
 
-## 🪪 License
-⚠️ License Notice  
-This repository was originally published under the MIT License.  
-As of April 22, 2025, the license has been changed to **CC BY-NC-ND 4.0**.  
-See the LICENSE file for details.
+---
 
-## 🔗 Additional Resources
-- **Documentation:** 
+## 📈 Future Enhancements  
+- Integrate advanced lead tracking and analytics  
+- Add virtual tour or 3D renderings for each floorplan  
+- Automate PDF floorplan uploads via Webflow CMS  
 
-- **Related Projects:** 
+---
 
-- **Live Demo Link:** 
+## 🤝 Contributing  
+This is a proprietary Epic Inspired project. Internal use only.
+
+---
+
+## 🪪 License  
+Content and branding belong to **Clarendon Heights / Evermark Real Estate**.
+
+---
+
+## 🔗 Additional Resources  
+- [Epic Inspired Project Dashboard](../GitHubDashboard.md)  
+- [Related Project: Evermark Real Estate](../EvermarkRealEstate.md)  
+- [Related Project: Virani](../Virani.md)  
